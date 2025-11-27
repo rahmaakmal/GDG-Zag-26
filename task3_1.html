@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <h2>Basic HTML Form Elements</h2>
+  <form>
+    <fieldset>
+      <legend>
+        Personal Information
+      </legend>
+      <div>
+        <label for="name">Name(Text):</label>
+        <input id="name" type="text" required>
+      </div>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>
+        Contact & Security
+      </legend>
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+      </div>
+      <br>
+      <div>
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" required>
+      </div>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend>
+        Preference
+      </legend>
+      <div>
+
+        <label for="color">Favourite Color:</label>
+        <input id="color" type="color">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Range & Options
+      </legend>
+      <div>
+        <label for="range">Volume(Range 0-100):</label>
+        <input id="range" type="range">
+      </div>
+      <br><br>
+      Select your favourite pet:
+      <div>
+        <input for="1" type="radio" name="Option">
+        <label id="1">cat</label>
+      </div>
+      <div>
+        <input for="2" type="radio" name="Option">
+        <label id="2">Dog</label>
+      </div>
+      <div>
+        <input for="3" type="radio" name="Option">
+        <label id="3">Bird</label>
+      </div>
+      <br> <br>
+      Interests(Check all that apply):
+      <div>
+        <input for="4" type="checkbox" name="Option" value="code">
+        <label id="4">Coding</label>
+      </div>
+      <div>
+        <input for="5" type="checkbox" name="Option" value="music">
+        <label id="5">Music</label>
+      </div>
+      <div>
+        <input for="6" type="checkbox" name="Option" value="travel">
+        <label id="6">Travel</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Selection
+      </legend>
+      <label for="select">Choose a Country:</label>
+      <select>
+        <option>Egypt</option>
+        <option selected> united kingdom</option>
+        <option>America</option>
+        <option>Iraq</option>
+        <option>Labnon</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Comments
+      </legend>
+      <label>Your Comment(TextArea):</label>
+      <br>
+      <textarea col="50" rows="8">
+      </textarea>
+    </fieldset>
+    <fieldset>
+      <legend>Fiel Upload</legend>
+      <div>
+        <label>Upload a file</label>
+        <input type="file">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Specialized Text Input
+      </legend>
+      <div>
+        <label for="text">Search this site:</label>
+        <input id="text">
+      </div>
+      <br>
+      <div>
+        <label>Your Website URL:</label>
+        <input type="URL" placeholder="https://example com">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Date & Time
+      </legend>
+      <div>
+        <label for="date">Date</label>
+        <input id="date" type="date">
+      </div>
+      <br>
+      <div>
+        <label for="month">Months</label>
+        <input id="month" type="month">
+      </div>
+      <br>
+      <div>
+        <labe>Time</labe>
+        <input type="time">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        DataList(Suggest):
+      </legend>
+      <div>
+        <label for="text">Choose a Browser(with suggestion):</label>
+        <input type="text">
+      </div>
+    </fieldset>
+    <hr>
+    <button>submit</button>
+    <input type="reset" value="clear Form">
+
+  </form>
+
+</body>
+
+</html>
