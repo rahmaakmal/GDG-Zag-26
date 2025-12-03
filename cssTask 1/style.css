@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+} 
+header{
+    color:white;
+    background:  #0077b6;
+    text-align: center;
+    padding:30px;
+} 
+h2{
+    color: #0077b6;
+}
+.contant {
+    background: #eaf6ff;
+    padding: 30px;
+}
+.about{
+    margin-top: 7px ;
+    border:2px solid #0077b6;
+    padding:20px 9px;
+    height: 150px;
+    margin:10px 100px;
+    overflow: auto;
+    color:#0077b6 ;
+}  
+.about h2{ 
+    
+    border:solid 1px  #0077b6;
+    margin-bottom: 5px;
+} 
+.skills ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}.projects  {
+    border: 2px dashed #0077b6;
+    padding: 20px;
+    margin:5px 50px ;
+    
+    
+}
+
+.project-cards {
+    display: flex;
+    justify-content:space-around; 
+    margin-top:20px;
+    margin-bottom: 40px;
+
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #0077b6;
+    padding: 15px;
+    text-align: center;
+    background: white;
+    
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+ .card h3 {
+    margin: 10px 0;
+} 
+#button{
+    color:white;
+    background-color: orange;
+    width: 70px;
+    margin-top:9px;
+    border:orange solid;
+} footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
